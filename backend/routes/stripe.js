@@ -15,7 +15,7 @@ router.post("/create-checkout-session", async (req, res) => {
       payment_method_types: ["card"],
       line_items: cartItems.map((item) => ({
         price_data: {
-          currency: "inr",
+          currency: 'INR',
           product_data: {
             name: item.name,
             images: [item.url],
@@ -48,7 +48,7 @@ router.post("/cart-create-checkout-session", async (req, res) => {
       payment_method_types: ["card"],
       line_items: cartItems.map((item) => ({
         price_data: {
-          currency: "inr",
+          currency: 'INR',
           product_data: {
             name: item.title,
             images: [item.images[0]], // Assuming images is an array
