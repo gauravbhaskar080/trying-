@@ -51,9 +51,7 @@ export default function Home() {
           <span className="AdminLoaderText">
             Velvet Home's Products are Loading...
           </span>
-          <div className="loading-game">
-            <LoadingMemoryGame />
-          </div>
+          <LoadingMemoryGame />
         </div>
       ) : (
         <div className="HomeElementsMain">
