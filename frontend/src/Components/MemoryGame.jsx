@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import "../stylesheets/MemoryGame.css";
 import shuffle from "./shuffle";
 
-const items = [1, 2, 3, 4 ,5];
+const items = [1, 2, 3, 4 ,5,6,7];
 const allItems = shuffle([...items, ...items]);
 const defaultState = { index: null, value: null };
 
