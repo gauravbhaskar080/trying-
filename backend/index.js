@@ -21,7 +21,8 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:5000',
+        url: 'https://velvet-wbd.onrender.com',
+        // url: 'http://localhost:5000',
       },
     ],
   },
@@ -43,6 +44,7 @@ const corsOptions = {
   origin: ["https://velvet-wbd.vercel.app", "http://localhost:3000", "https://velvet-home.vercel.app"],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
+  allowedHeaders: ["Content-Type", "Authorization"],
 };
 app.use(cors(corsOptions));
 
