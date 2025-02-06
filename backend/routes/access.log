@@ -1725,3 +1725,5 @@
 ::1 - - [02/May/2024:06:51:35 +0000] "GET /velvethomes/admin/allcompanies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 ::1 - - [02/May/2024:06:51:42 +0000] "GET /velvethomes/admin/deliveries HTTP/1.1" 200 123162 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 ::1 - - [02/May/2024:06:51:44 +0000] "GET /velvethomes/admin/deliveries HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+::1 - - [02/Nov/2024:16:30:12 +0000] "GET /velvethomes/customer/home HTTP/1.1" 200 73675 "-" "PostmanRuntime/7.41.2"
+::1 - - [02/Nov/2024:16:39:50 +0000] "GET /velvethomes/customer/home HTTP/1.1" 200 73675 "-" "PostmanRuntime/7.41.2"
